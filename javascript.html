@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumo JavaScript</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <div class="janelinha" id="janelinha">
+        Seu e-mail é: <span id="txt">     </span>
+        <br>
+        A soma é:  <span id="resultado">  </span> 
+        <br> <br>
+        <img class= "sair" onclick="Fechar();" src="deletar.png" width="30px">
+    </div>
+    
+    Digite seu e-mail:
+    <input type="text" id="email">
+
+    <button onclick="Mostrar();"> 
+        <img src="joinha.png" width="30px">
+        <br>
+        Enviar
+    </button>
+
+    <button onclick="MostrarJanelinha();">
+        <img src="janelinha.png" width="30px">
+        <br>
+        Cadastrar
+    </button>
+        
+    <button onclick="Somar();">
+        <img src="somar.png" width="30px">
+        <br>
+        Adicionar
+    </button>
+
+    <button onclick="Imprimir();">
+        <img src="imprimir.png" width="30px">
+        <br>
+        Imprimir
+    </button>
+
+        <div class="texto1"> ESSE É O TEXTO 1 </div>
+        <div class="texto2"> ESSE É O TEXTO 2 </div>
+        <br>
+        <button class="BT"> BOTÃO </button>
+
+
+</body>
+
+<script src="script.js"></script>
+</html>
